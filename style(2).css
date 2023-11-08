@@ -1,0 +1,63 @@
+@charset 'utf-8';
+/*
+ Theme Name:   Ánama Clinic Child
+ Theme URI:    http://angela.ancorathemes.com/
+ Description:  Angela - Fully Responsive and Mobile Friendly theme
+ Author:       Identidad Visual
+ Author URI:   http://ancorathemes.com/
+ Template:     angela
+ Version:      1.0
+ Tags:         light, inheritable theme-options
+ Text Domain:  Ánama Clinic
+*/
+
+
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+.services_single .services_page_header {
+    margin-bottom: 2em;
+    display: none !important;
+}
+/*************************** FOOTER */
+footer{}
+footer h2{ font-size: 1.688em !important; }
+footer .socials_wrap .social_item .social_icon{border-radius:3.46em !important;}
+footer .wcopy p{ text-align:center !important; }
+.trx_addons_scroll_to_top{ border-radius:3em !important; }
+.wdisclaimer p a{ color:#00507f !important; }
+footer .wmenu li{ width:100% !important; }
+footer .sc_icons_item{ background-color:#e5fff4 !important; }
+footer .sc_icons_item a,
+footer .sc_icons_item_linked:hover .sc_icons_item_description, 
+footer .sc_icons_item .sc_icons_item_description{ color:#0093d9 !important; }
+footer .sc_icons_item h4{ font-size:2.3rem !important; }
+footer .sc_icons_item_linked{ padding:0 2em 4.3em !important; }
+footer .sc_icons_image{ background-color:#fff !important; }
+footer .wficons .sc_icons_item{ padding: 0 1em 4.3em !important; }
+footer .wficons hr{ margin:10px 0 !important; }
+
+.trx_addons_scroll_to_top.show{ display:none !important; }
+
+@media (max-width: 768px) {
+	footer .wcopy{ padding:0 0 100px 0 }
+}
+
+.wFooterBottom{ bottom:0 !important; display:none; left:0 !important; margin-left:0 !important; margin-right:0 !important; padding-left:0 !important; padding-right:0 !important; position:fixed !important; z-index:501 !important; }
+.wFooterBottom .vc_column-inner{ padding-left:0 !important; padding-right:0 !important; }
+.wFooterBottom ul{ display:flex; flex-wrap:nowrap; margin:0 !important; padding:0 !important; }
+.wFooterBottom ul li{ background:#CB8478 !important; list-style-type:none !important; margin:0 !important; padding:20px 1% 20px 2%; position:relative; width:50%; }
+
+.wFooterBottom ul li:last-child{ background:#F4CBC6 !important; }
+
+.wFooterBottom ul li .wright{ line-height:20px; }
+.wFooterBottom ul li .wleft{ background:#fff !important; border-radius:35px; height:50px; left:0; line-height:50px; margin:auto; position:absolute; right:0; text-align:center; top:-35px; width:50px; }
+.wFooterBottom ul li .wleft img{ height:auto; vertical-align:middle; width:60%; }
+.wFooterBottom ul li .wright{ color:#fff; display:block; font-weight:bold; text-align:center; width:100%; }
+
+
+@media (max-width: 768px) {
+	.wFooterBottom{ display:block; }
+}
+/*************************** END, FOOTER */
